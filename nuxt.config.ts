@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     ssr: false, // GitHub Pages chỉ hỗ trợ static SPA
     // 👉 quan trọng: base đúng repo name
     app: {
-        baseURL: "/customer-nha-cho-thue/",
+        baseURL: "/thiep-cuoi-online/",
         buildAssetsDir: "assets",
     },
 
