@@ -3,6 +3,12 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
     ssr: false, // GitHub Pages chỉ hỗ trợ static SPA
+    // 👉 quan trọng: base đúng repo name
+    app: {
+        baseURL: "/thiep-cuoi-online/",
+        buildAssetsDir: "_nuxt/",
+    },
+
     compatibilityDate: "2025-07-15",
     devtools: { enabled: true },
     css: ["~/assets/css/main.css"],

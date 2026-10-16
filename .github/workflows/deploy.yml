@@ -32,6 +32,8 @@ jobs:
               run: yarn install --frozen-lockfile
 
             - name: Generate static site
+              env:
+                  NUXT_APP_BASE_URL: /thiep-cuoi-online/
               run: yarn generate
 
             - name: Upload artifact for Pages
